@@ -5,7 +5,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import NavBar from './components/navBar';
-import Carousel1 from './components/carousel';
+import Carousel1 from './components/homeComponents/js/carousel';
 import Products from './components/products/products'
 import {Route,Link,BrowserRouter as Router } from 'react-router-dom';
 import BlogHome from './components/blog/blogHome';

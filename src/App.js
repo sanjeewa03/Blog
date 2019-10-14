@@ -2,8 +2,8 @@ import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import NavBar from "./components/navBar";
-import Carousel1 from "./components/carousel";
-import List from "./components/card";
+import Carousel1 from "./components/homeComponents/js/carousel";
+import List from "./components/homeComponents/js/card";
 import AboutUs from "./components/aboutUs";
 import Footer from "./components/footer";
 
@@ -12,6 +12,9 @@ function App() {
     <div className="App">
       <div>
         <NavBar />
+      </div>
+      <div>
+        <Carousel1/>
       </div>
       <div>
         <List title="card 1" subtitle="ojhniwsf joiwsjhoi ujrfoiwsjh" description="ljnaedosnh ohiuh iu nygtoihg iuhoiuyoiuy puoihyo9iu ;iujppoiuy poiuoy gfuytf jdc5e i8t7" />

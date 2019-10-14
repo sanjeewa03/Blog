@@ -22,14 +22,14 @@ export default class Footer extends React.Component{
             <a href="terms.php">
               <p>T &amp; C</p>
             </a>
-            <a href="gallery.html">
-                <p>Gallery</p>
+            <a href="/blog">
+                <p>Blog</p>
               </a>
-            <a href="#explore">
-              <p>Explore</p>
+            <a href="/tutorials">
+              <p>Tutorials</p>
             </a>
-            <a href="#pack">
-              <p>Packages</p>
+            <a href="/products">
+              <p>Products</p>
             </a>
             <a href="#about">
               <p>About Us</p>

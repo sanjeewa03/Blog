@@ -10,7 +10,7 @@ import Typography from '@material-ui/core/Typography';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Container from 'react-bootstrap/Container';
-import './card.css';
+import '../css/card.css';
 
 
 const useStyles = makeStyles({
@@ -31,7 +31,7 @@ function CardModel() {
   <div class="container">
 
     <h2 data-aos="fade-down">Explore Our
-      <span class="a"> Best Destinations</span>
+      <span class="a"> Best Products</span>
       <hr/>
     </h2 >
     <div class="card-group" id="ex-1" >
@@ -39,15 +39,15 @@ function CardModel() {
      <div class="card" data-aos="zoom-in" >
         <img class="card-img-top" src="./carousel1.png" height="150px" width="100px" alt="Card image cap" />
         <div class="card-body">
-          <h5 class="card-title">Anuradhapura</h5>
-          <p class="card-text">Ancient | Religious | Historical</p>
+          <h5 class="card-title">Konnect</h5>
+          <p class="card-text">Internet Speed | Wi-Fi | Data Usage</p>
         </div>
       </div>
       <div class="card" data-aos="zoom-in">
         <img class="card-img-top" src="./1.jpg" height="150px" width="100px" alt="Card image cap" />
         <div class="card-body">
-          <h5 class="card-title">Batticaloa</h5>
-          <p class="card-text">Commercial | Religious | Historical</p>
+          <h5 class="card-title">Show Wifi Password</h5>
+          <p class="card-text">Wi-Fi </p>
         </div>
       </div>
               
