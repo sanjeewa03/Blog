@@ -9,7 +9,9 @@ export default class BlogHome extends React.Component{
     render(){
         return (
             <div>
+            
                 <NavBar />
+                <h1>blog</h1>
                 <Footer/>
             </div>
         );

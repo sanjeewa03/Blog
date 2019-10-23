@@ -74,14 +74,14 @@ class NavBar extends React.Component {
                   <NavLink
                     style={{ color: "black", marginRight: "15px" }}
                     activeStyle={{ color: "grey" }}
-                    to="/tutorials"
+                    to="/signin"
                   >
                     <DropdownItem>Sign In</DropdownItem>
                   </NavLink>
                   <NavLink
                     style={{ color: "black", marginRight: "15px" }}
                     activeStyle={{ color: "grey" }}
-                    to="/tutorials"
+                    to="/register"
                   >
                   <DropdownItem>Register</DropdownItem>
                   </NavLink>

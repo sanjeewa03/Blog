@@ -10,6 +10,7 @@ import Products from './components/products/products'
 import {Route,Link,BrowserRouter as Router } from 'react-router-dom';
 import BlogHome from './components/blog/blogHome';
 import TutorialsHome from './components/tutorials/tutorialsHome';
+import SignInForm from './components/auth/signinForm';
 
 
 const routing = (
@@ -21,6 +22,7 @@ const routing = (
         <Route path="/products" component={Products} />
         <Route path="/blog" component={BlogHome} />
         <Route path="/tutorials" component={TutorialsHome} />
+        <Route path="/signin" component={SignInForm}/>
       </div>
     </Router>
   )
