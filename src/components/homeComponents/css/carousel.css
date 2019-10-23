@@ -24,9 +24,9 @@
     height: 20px;
 }
 /*====== BG COLOR ======*/
-.dGray {
+/* .dGray {
     background-color: #333;
-}
+} */
 .white {
     background-color: aliceblue;
 }
@@ -50,7 +50,7 @@
 }
 /*====== TRANSITIONS ======*/
 .transition1l {
-    transition: left 1s ease-in-out;
+    transition: left 2s ease-in-out;
 }
 /*====== POSITION ======*/
 .abs {
