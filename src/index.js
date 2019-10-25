@@ -8,7 +8,7 @@ import NavBar from './components/navBar';
 import Carousel1 from './components/homeComponents/js/carousel';
 import Products from './components/products/products'
 import {Route,Link,BrowserRouter as Router } from 'react-router-dom';
-import BlogHome from './components/blog/test';
+import BlogHome from './components/blog/blogHome';
 import TutorialsHome from './components/tutorials/tutorialsHome';
 import SignIn from './components/auth/SignIn';
 import SignInSide from './components/auth/signUp';

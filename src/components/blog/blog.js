@@ -17,9 +17,6 @@ import Button from "@material-ui/core/Button";
 import Divider from "@material-ui/core/Divider";
 import Container from "@material-ui/core/Container";
 import Markdown from "./Markdown";
-import post1 from "./blog-post.1.md";
-import post2 from "./blog-post.2.md";
-import post3 from "./blog-post.3.md";
 import RecipeReviewCard from "./card";
 import { Col, Row } from "react-bootstrap";
 
@@ -136,7 +133,6 @@ const featuredPosts = [
   }
 ];
 
-const posts = [post1, post2, post3];
 
 const archives = [
   "March 2020",
@@ -166,39 +162,7 @@ export default function Blog() {
       <Container maxWidth="lg">
         <main>
           {/* Main featured post */}
-          <Paper className={classes.mainFeaturedPost}>
-            {/* Increase the priority of the hero background image */}
-            {
-              <img
-                style={{ display: "none" }}
-                src="https://source.unsplash.com/user/erondu"
-                alt="background"
-              />
-            }
-            <div className={classes.overlay} />
-            <Grid container>
-              <Grid item md={6}>
-                <div className={classes.mainFeaturedPostContent}>
-                  <Typography
-                    component="h1"
-                    variant="h3"
-                    color="inherit"
-                    gutterBottom
-                  >
-                    Title of a longer featured blog post
-                  </Typography>
-                  <Typography variant="h5" color="inherit" paragraph>
-                    Multiple lines of text that form the lede, informing new
-                    readers quickly and efficiently about what&apos;s most
-                    interesting in this post&apos;s contents.
-                  </Typography>
-                  <Link variant="subtitle1" href="#">
-                    Continue reading…
-                  </Link>
-                </div>
-              </Grid>
-            </Grid>
-          </Paper>
+         
           {/* End main featured post */}
           {/* Sub featured posts */}
 

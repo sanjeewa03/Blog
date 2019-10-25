@@ -52,7 +52,7 @@ export default function RecipeReviewCard() {
       <CardHeader
         avatar={
           <Avatar aria-label="recipe" className={classes.avatar}>
-            R
+            A
           </Avatar>
         }
         action={
@@ -65,7 +65,7 @@ export default function RecipeReviewCard() {
       />
       <CardMedia
         className={classes.media}
-        image="/static/images/cards/paella.jpg"
+        image="./1.jpg"
         title="Paella dish"
       />
       <CardContent>

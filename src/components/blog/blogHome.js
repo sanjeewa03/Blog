@@ -3,8 +3,7 @@ import NavBar from "../navBar";
 import Footer from "../footer";
 import Blog from "./blog";
 import { Col, Row } from "react-bootstrap";
-
-import MultiCarouselPage from "./test";
+import Carousel from './carousel';
 
 export default class BlogHome extends React.Component {
   constructor(props) {
@@ -12,15 +11,17 @@ export default class BlogHome extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div style={{backgrounb:"rgb(220,220,220)"}}>
       
         <div>
-          <NavBar />
+        <div>
+          <NavBar  />
+          </div>
+          <div >
+          <Carousel/>
+          </div>
         </div>
         <div>
-        <Row>
-      <MultiCarouselPage/>
-      </Row>
       </div>
         <div>
             <Blog/>

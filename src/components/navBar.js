@@ -29,13 +29,13 @@ class NavBar extends React.Component {
   }
   render() {
     return (
-      <div>
-        <Navbar color="light" light expand="md">
+      <div style={{overflow: "visible",position:"fixed",top:"0",width:"100%",zIndex: "4"}}>
+        <Navbar color="light" light expand="md" >
           <NavbarBrand href="/">AppEDit Mobile</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <NavItem>
+            <Nav className="ml-auto" navbar style={{marginRight:"5%"}}>
+              <NavItem >
                 <NavLink
                   style={{ color: "black", marginRight: "15px" }}
                   activeStyle={{ color: "grey" }}
@@ -62,32 +62,7 @@ class NavBar extends React.Component {
                   Tutorials
                 </NavLink>
               </NavItem>
-              <UncontrolledDropdown nav inNavbar>
-                <DropdownToggle
-                  nav
-                  caret
-                  style={{ color: "black", marginRight: "15px" }}
-                >
-                  Sing Up
-                </DropdownToggle>
-                <DropdownMenu right>
-                  <NavLink
-                    style={{ color: "black", marginRight: "15px" }}
-                    activeStyle={{ color: "grey" }}
-                    to="/signin"
-                  >
-                    <DropdownItem>Sign In</DropdownItem>
-                  </NavLink>
-                  <NavLink
-                    style={{ color: "black", marginRight: "15px" }}
-                    activeStyle={{ color: "grey" }}
-                    to="/register"
-                  >
-                  <DropdownItem>Register</DropdownItem>
-                  </NavLink>
-                  
-                </DropdownMenu>
-              </UncontrolledDropdown>
+             
             </Nav>
           </Collapse>
         </Navbar>

@@ -13,7 +13,8 @@ function App() {
       <div>
         <NavBar />
       </div>
-      
+      <br/>
+      <br/>
       <div>
         <List title="card 1" subtitle="ojhniwsf joiwsjhoi ujrfoiwsjh" description="ljnaedosnh ohiuh iu nygtoihg iuhoiuyoiuy puoihyo9iu ;iujppoiuy poiuoy gfuytf jdc5e i8t7" />
       </div>
